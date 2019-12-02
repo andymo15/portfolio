@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> Andy's Portfolio </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <script src='scripts.js'></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+<div>
+    <header id="header">
+        <nav>
+            <div class="logo">
+                ANDY MO
+            </div>
+            <div class="menu">
+                <ul>
+                <li><button class="header-btn" type="button" onClick="document.getElementById('header').scrollIntoView();"> Home </button> </li>
+                <li><button class="header-btn" type="button" onClick="document.getElementById('about').scrollIntoView();"> About </button>  </li>
+                <li><button class="header-btn" type="button" onClick="document.getElementById('projects').scrollIntoView();"> Projects </button> </li>
+                <li><button class="header-btn" type="button" onClick="document.getElementById('contact').scrollIntoView();"> Contact </button> </li>
+                </ul>
+            </div>
+        </nav>
+        <section class="div-ball">
+        <div class="nametag">
+            <p><b>Andy Mo</b><p>
+        </div>
+        </section>
+    </header>
+    <div class="content-about" id="about">
+        <h2 class="header-about">Who Am I?</h2>
+            <p class="about-p"> Andy Mo is my name and Software Engineering is my game. I am a curious mind with a willingness to learn about anything and everything that interests me.
+                I aspire to create or be apart of something that will leave its fingerprint on this world. Other than coding, I enjoy playing basketball, hanging out with my friends, and 
+                being around my loved ones.
+            </p>
+    </div>
+    <div class="content-projects row" id="projects">
+        <div class="project-one column">
+        <img class="project-one-img" src="./images/project1.jpg">          
+        </div>
+        <div class="project-one column">
+            <h2 class="project-one-header">Project Skynet</h2>
+            <p>This is the very first project I did with a partner in my software engineering course at General Assembly. For this project,
+                I mainly worked in the backend. This was my first experience working on the backend and I struggled quite a bit while doing it but 
+                I believe I learned a lot about what I needed to work on and got a good first taste of what it is like building a full stack application.
+            </p>
+        </div>
+    </div>
+    <div class="content-contact" id="contact">
+        <h2>Contact</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam eos nulla beatae doloremque perspiciatis culpa recusandae, sequi natus 
+            id porro maxime facilis nisi molestiae esse delectus nam ratione corporis sint.</p>
+    </div>
+    </div>
+</body>
+</html>
